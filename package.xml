@@ -7,6 +7,7 @@
   </description>
   <license>Apache License 2.0</license>
   <author email="251349552@qq.com">rcwind</author>
+  <maintainer email="251349552@qq.com">rcwind</maintainer>
   <url type="repository">https://github.com/rcwind/krb100m_msg</url>
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>std_msgs</build_depend>
