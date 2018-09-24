@@ -26,6 +26,7 @@ add_message_files(
   VersionInfo.msg
   PanoramaImg.msg
   Sound.msg
+  dynamic.msg
 )
 
 add_service_files(
