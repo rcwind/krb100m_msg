@@ -12,6 +12,9 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   sensor_msgs
   std_srvs
+  roscpp
+  rospy
+  dynamic_reconfigure
 )
 
 ################################################################################
@@ -38,6 +41,8 @@ generate_messages(
   std_msgs
   sensor_msgs
 )
+
+generate_dynamic_reconfigure_options(cfg/krb100m.cfg)
 
 ################################################################################
 # Declare ROS dynamic reconfigure parameters
