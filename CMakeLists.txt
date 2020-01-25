@@ -22,7 +22,7 @@ find_package(catkin REQUIRED COMPONENTS
 ################################################################################
 add_message_files(
   FILES
-  SensorState.msg
+  SenState.msg
   VersionInfo.msg
   PanoramaImg.msg
   Sound.msg
